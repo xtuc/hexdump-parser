@@ -1,0 +1,22 @@
+{
+  "name": "hexdump-parser",
+  "version": "1.0.0",
+  "description": "Parses hexdump(1) output",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R tap"
+  },
+  "keywords": [
+    "hexdump",
+    "parser",
+    "Uint8Array"
+  ],
+  "author": "Sven Sauleau",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "6.0.2"
+  },
+  "bin": {
+    "hexdump-to-json": "./cli-to-json.js"
+  }
+}
