@@ -20,7 +20,7 @@ yarn add hexdump-parser
 
 cli:
 ```sh
-hexdump -C FILE | cli-to-json
+hexdump -C FILE | hexdump-to-json
 ```
 
 or api:
